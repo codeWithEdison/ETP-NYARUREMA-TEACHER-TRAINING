@@ -1,0 +1,20 @@
+MONGODB
+
+1. is  document oriented DB
+2. store data in a type of JSON  format called BSON
+
+camelCase, PascalCase
+
+syntax for insert one documen:
+==> db.collectioName.insertOne(obj)
+
+db.collectioName.insertMany([obj1, obj2])
+
+ find =={
+    db.collectioName.find({selection},{projection})
+    db.colection.fin({},{some thing })
+ }
+
+ greater than == gt
+ less than == lt
+ greater than or equal == gte
