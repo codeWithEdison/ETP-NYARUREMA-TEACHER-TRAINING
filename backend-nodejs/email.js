@@ -3,13 +3,13 @@ const nodemailer = require('nodemailer');
 let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth:{
-        user: 'your email address',
-        pass: 'your emaul pass'
+        user: 'edsnkvn@gmail.com',
+        pass: 'xqyd ehwh gwte tscn'
     }
 });
 
 mailOptions = {
-    from: 'your amail',
+    from: 'edsnkvn@gmail.com',
     to: 'edisonuwihanganye@gmail.com',
     subject: 'Your Exclusive Invitation - ETP Training Session',
     html: `
